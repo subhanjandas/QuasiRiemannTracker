@@ -1,0 +1,14 @@
+[
+  {
+    "expected": "accepted",
+    "exit_code": 0
+  },
+  {
+    "expected": "statement-mismatch",
+    "exit_code": 1
+  },
+  {
+    "expected": "ill-typed-proof",
+    "exit_code": 1
+  }
+]

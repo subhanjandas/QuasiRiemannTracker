@@ -1,0 +1,433 @@
+{
+ "run": {
+  "run_id": "40119097039",
+  "run_attempt": "1",
+  "workflow_sha": "fa30ebae5060a4d89cb632083eccd113c60e2239",
+  "repository": "subhanjandas/QuasiRiemannTracker",
+  "run_url": "https://github.com/subhanjandas/QuasiRiemannTracker/actions/runs/40119097039",
+  "submission_head": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+  "products_from_run": "40104400181"
+ },
+ "stages": {
+  "final": "EXPORTED",
+  "kernel-con-ron": "NO REPORT",
+  "kernel-lean-default": "NO REPORT",
+  "kernel-nanoda": "NO REPORT"
+ },
+ "axioms_printed": {
+  "Das.QRH.CoreBridge.sound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Endpoint.first_family_beta": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Endpoint.family_beta": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Endpoint.dirichlet_nonvanishing": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.FamilyTransfer.dirichlet_of_family_beta": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.TrackerGeometry.boundsA": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.TrackerGeometry.boundsB": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.GraphAssembly.ACount.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.GraphAssembly.APhysical.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.GraphAssembly.BCount.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.GraphAssembly.BPhysical.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.TrackerRebuild.root_cap": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.TrackerRebuild.internal_cap": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Candidate.bound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.new_interval_bound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.old_interval_bound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.inverse_at_branch_crossing": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.admitted_witness_ranges": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.branch_plain_crossing": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.admitted_natural_tail": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.branchCount_antitoneOn": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.admitted_widths": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.admitted_buffered_plain": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.FinalEdges.closed_envelope_return_cover": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.beta_of_global_sources": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.final_old_rows": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.final_new_rows": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.finalPhysicalSchedule": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.final_windows_common_mesh": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.ReturnCountWindow.toAdmitted": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.countJ_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.edgeD_nonneg": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.exponent_lt_of_margin": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.bounds": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.selected_sources_common_mesh": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.source_on_root_interval": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.all_counting_sources_common_mesh": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnA.all_detector_inputs_of_global_sources": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.new_interval_bound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.old_interval_bound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.inverse_at_branch_crossing": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.admitted_witness_ranges": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.branch_plain_crossing": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.admitted_natural_tail": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.branchCount_antitoneOn": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.admitted_widths": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.admitted_buffered_plain": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.FinalEdges.closed_envelope_return_cover": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.beta_of_global_sources": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.final_old_rows": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.final_new_rows": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.finalPhysicalSchedule": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.final_windows_common_mesh": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.ReturnCountWindow.toAdmitted": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.countJ_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.edgeD_nonneg": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.exponent_lt_of_margin": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.bounds": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.selected_sources_common_mesh": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.source_on_root_interval": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.all_counting_sources_common_mesh": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.ReturnB.all_detector_inputs_of_global_sources": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.SuppliersA.global_suppliers": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.SuppliersB.global_suppliers": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.TrackerRebuild.admittedInputs": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.TrackerRebuild.root_global_source": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.TrackerRebuild.existing_nf_rule": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "non_standard_axioms": [],
+ "compile_errors": {},
+ "stage_details": {
+  "final": {
+   "compile-report.json": {
+    "mode": "final",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 7855,
+    "required": 47,
+    "compiled": 47,
+    "restored": 7808,
+    "packed": 47,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 551.2
+   },
+   "final-report.json": {
+    "stage": "Solution wrapper compiled and exported; kernels pending in separate workers",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "source_commit": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "result_id": "das-acyclic-bootstrap-874771265",
+    "theta": {
+     "numerator": "174954253",
+     "denominator": "200000000"
+    },
+    "exports": {
+     "Challenge.export": {
+      "sha256": "d2605d6efb424beba1f9730f2d58fbe0054f9a2afd89f18990da9ec1b30664b2",
+      "bytes": 350228320
+     },
+     "Solution.export": {
+      "sha256": "28ec29ebe31b2107b2f374fd461e049822f4a09822a19317faee2a771afe4989",
+      "bytes": 7109006115
+     }
+    },
+    "solution_compile_and_export_seconds": 849.4,
+    "comparator_config": {
+     "challenge_module": "Challenge",
+     "solution_module": "Solution",
+     "theorem_names": [
+      "QRH.canonical_bound"
+     ],
+     "definition_names": [],
+     "permitted_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+     ],
+     "external_kernels": {
+      "nanoda": [
+       "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/verification/environment/lean-4.35.0-rc2-linux/bin/nanoda_bin"
+      ],
+      "con-ron": [
+       "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/verification/environment/lean-4.35.0-rc2-linux/bin/con-ron",
+       "--jobs=2"
+      ]
+     }
+    },
+    "library_inventory_sha256": "4a08c2b88ee650b70d255cb5e67afa1847d7d5cc88d339a0e77d22e19d491bb9",
+    "submission_trees": {
+     "das-acyclic-bootstrap-874771265": "a9f75bea43507ecb11193ef396309aaa191d3bff",
+     "lewko-acyclic-bootstrap-874772906": "0a07c961b4ed9bb9dd2a83bf4d642a2a452a3597",
+     "openai-baseline": "e470d11a2c5b310e5d8fe5a6263acb376aff9cd6"
+    }
+   }
+  },
+  "kernel-con-ron": {},
+  "kernel-lean-default": {},
+  "kernel-nanoda": {}
+ },
+ "all_three_kernels_accept": false,
+ "candidate_bound_axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ]
+}

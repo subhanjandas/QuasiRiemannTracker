@@ -1,0 +1,249 @@
+Authenticate pinned library snapshot
+Proof compilation: using 4 Lean threads
+sandbox controls
+positive, mismatched statement and ill-typed proof controls
+compile and freeze canonical challenge
+candidate mount controls
+Restored 10 authenticated modules from products.tar.zst
+Restored 6632 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 82 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 82 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+Restored 83 authenticated modules from products.tar.zst
+7808 modules available from this run or the signed cache
+compile standard candidate
+Compiling up to 4 modules concurrently
+Selected 7855 modules; 47 to compile; 7808 restored
+Compile Candidate.ReturnA.Finite.ReturnFacts (1 threads, 2998 MiB memory limit)
+Compile Candidate.ReturnA.Geometry (1 threads, 2998 MiB memory limit)
+Compile Candidate.ReturnB.Finite.ReturnFacts (1 threads, 2998 MiB memory limit)
+Compile Candidate.FamilyTransfer (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.Geometry in 10.5s
+Compile Candidate.ReturnA.Conductor (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.Finite.ReturnFacts in 11.7s
+Compile Candidate.ReturnA.CountAdmission (1 threads, 2998 MiB memory limit)
+Compiled Candidate.FamilyTransfer in 11.5s
+Compiled Candidate.ReturnB.Finite.ReturnFacts in 11.6s
+Compile Candidate.ReturnA.SourceInlet (1 threads, 2998 MiB memory limit)
+Compile Candidate.ReturnB.Conductor (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.Conductor in 4.4s
+Compile Candidate.ReturnB.CountAdmission (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.CountAdmission in 6.2s
+Compile Candidate.ReturnA.CountMonotonicity (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.Conductor in 4.8s
+Compile Candidate.ReturnB.SourceInlet (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.SourceInlet in 7.4s
+Compile Candidate.ReturnB.Geometry (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.CountAdmission in 6.4s
+Compile Candidate.ReturnB.CountMonotonicity (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.CountMonotonicity in 4.4s
+Compile Candidate.ReturnA.CountWindows (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.SourceInlet in 4.8s
+Compile Candidate.Geometry (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.Geometry in 3.8s
+Compile Candidate.CoreBridge (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.CountMonotonicity in 4.4s
+Compile Candidate.ReturnB.CountWindows (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.CountWindows in 5.0s
+Compile Candidate.ReturnA.CountDecode (1 threads, 2998 MiB memory limit)
+Compiled Candidate.Geometry in 4.2s
+Compile Candidate.ReturnA.WindowSources (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.CountWindows in 4.2s
+Compile Candidate.ReturnB.CountDecode (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.WindowSources in 9.4s
+Compile Candidate.ReturnB.WindowSources (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.CountDecode in 10.0s
+Compile Candidate.ReturnA.CountWidth (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.CountDecode in 7.1s
+Compile Candidate.ReturnB.CountWidth (1 threads, 2998 MiB memory limit)
+Compiled Candidate.CoreBridge in 16.8s
+Compile Candidate.GraphAssembly.ACount (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.WindowSources in 5.2s
+Compile Candidate.GraphAssembly.APhysical (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.CountWidth in 5.4s
+Compile Candidate.ReturnB.FinalWindows (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.CountWidth in 5.4s
+Compile Candidate.ReturnA.FinalWindows (1 threads, 2998 MiB memory limit)
+Compiled Candidate.GraphAssembly.ACount in 3.8s
+Compile Candidate.InputInterface (1 threads, 2998 MiB memory limit)
+Compiled Candidate.GraphAssembly.APhysical in 3.9s
+Compile Candidate.GraphAssembly.BCount (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.FinalWindows in 4.2s
+Compile Candidate.ReturnA.FinalScheme (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.FinalWindows in 4.4s
+Compile Candidate.ReturnB.FinalScheme (1 threads, 2998 MiB memory limit)
+Compiled Candidate.InputInterface in 4.0s
+Compile Candidate.SuppliersA (1 threads, 2998 MiB memory limit)
+Compiled Candidate.GraphAssembly.BCount in 3.8s
+Compile Candidate.GraphAssembly.BPhysical (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnA.FinalScheme in 4.2s
+Compile Candidate.ReturnA.FinalEnvelopeBounds (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.FinalScheme in 4.4s
+Compile Candidate.ReturnB.FinalEnvelopeBounds (1 threads, 2998 MiB memory limit)
+Compiled Candidate.GraphAssembly.BPhysical in 3.8s
+Compile Candidate.SuppliersB (1 threads, 2998 MiB memory limit)
+Compiled Candidate.SuppliersA in 4.6s
+Compiled Candidate.ReturnA.FinalEnvelopeBounds in 4.7s
+Compile Candidate.ReturnA.EdgeCover (1 threads, 2998 MiB memory limit)
+Compile Candidate.TrackerInput (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.FinalEnvelopeBounds in 4.4s
+Compile Candidate.ReturnB.EdgeCover (1 threads, 2998 MiB memory limit)
+Compiled Candidate.SuppliersB in 4.6s
+Compiled Candidate.TrackerInput in 53.9s
+Compiled Candidate.ReturnB.EdgeCover in 113.7s
+Compile Candidate.ReturnB.FinalRows (3 threads, 8994 MiB memory limit)
+Compiled Candidate.ReturnA.EdgeCover in 114.4s
+Compile Candidate.ReturnA.FinalRows (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.FinalRows in 3.3s
+Compile Candidate.ReturnB.FinalSchedule (3 threads, 8994 MiB memory limit)
+Compiled Candidate.ReturnA.FinalRows in 3.5s
+Compile Candidate.ReturnA.FinalSchedule (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.FinalSchedule in 3.3s
+Compile Candidate.ReturnB.Endpoint (3 threads, 8994 MiB memory limit)
+Compiled Candidate.ReturnA.FinalSchedule in 3.3s
+Compile Candidate.ReturnA.Endpoint (1 threads, 2998 MiB memory limit)
+Compiled Candidate.ReturnB.Endpoint in 10.3s
+Compiled Candidate.ReturnA.Endpoint in 9.5s
+Compile Candidate.Endpoint (4 threads, 11992 MiB memory limit)
+Compiled Candidate.Endpoint in 7.1s
+Compile Candidate.Main (4 threads, 11992 MiB memory limit)
+Compiled Candidate.Main in 9.5s
+{
+ "mode": "final",
+ "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+ "repository": "subhanjandas/QuasiRiemannTracker",
+ "targets_file": "/home/runner/work/_temp/targets.json",
+ "selected": 7855,
+ "required": 47,
+ "compiled": 47,
+ "restored": 7808,
+ "packed": 47,
+ "failure": null,
+ "post_checks_tools_libraries_source_challenge": true,
+ "compile_cpu_seconds": 551.2,
+ "slowest": [
+  [
+   114.4,
+   "Candidate.ReturnA.EdgeCover"
+  ],
+  [
+   113.7,
+   "Candidate.ReturnB.EdgeCover"
+  ],
+  [
+   53.9,
+   "Candidate.TrackerInput"
+  ],
+  [
+   16.8,
+   "Candidate.CoreBridge"
+  ],
+  [
+   11.7,
+   "Candidate.ReturnA.Finite.ReturnFacts"
+  ],
+  [
+   11.6,
+   "Candidate.ReturnB.Finite.ReturnFacts"
+  ],
+  [
+   11.5,
+   "Candidate.FamilyTransfer"
+  ],
+  [
+   10.5,
+   "Candidate.ReturnA.Geometry"
+  ],
+  [
+   10.3,
+   "Candidate.ReturnB.Endpoint"
+  ],
+  [
+   10.0,
+   "Candidate.ReturnA.CountDecode"
+  ],
+  [
+   9.5,
+   "Candidate.ReturnA.Endpoint"
+  ],
+  [
+   9.5,
+   "Candidate.Main"
+  ],
+  [
+   9.4,
+   "Candidate.ReturnA.WindowSources"
+  ],
+  [
+   7.4,
+   "Candidate.ReturnA.SourceInlet"
+  ],
+  [
+   7.1,
+   "Candidate.ReturnB.CountDecode"
+  ]
+ ]
+}
+compile and export standard solution wrapper
+{
+ "stage": "Solution wrapper compiled and exported; kernels pending in separate workers",
+ "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+ "source_commit": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+ "repository": "subhanjandas/QuasiRiemannTracker",
+ "result_id": "das-acyclic-bootstrap-874771265",
+ "theta": {
+  "numerator": "174954253",
+  "denominator": "200000000"
+ },
+ "exports": {
+  "Challenge.export": {
+   "sha256": "d2605d6efb424beba1f9730f2d58fbe0054f9a2afd89f18990da9ec1b30664b2",
+   "bytes": 350228320
+  },
+  "Solution.export": {
+   "sha256": "28ec29ebe31b2107b2f374fd461e049822f4a09822a19317faee2a771afe4989",
+   "bytes": 7109006115
+  }
+ },
+ "solution_compile_and_export_seconds": 849.4,
+ "comparator_config": {
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+   "QRH.canonical_bound"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "external_kernels": {
+   "nanoda": [
+    "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/verification/environment/lean-4.35.0-rc2-linux/bin/nanoda_bin"
+   ],
+   "con-ron": [
+    "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/verification/environment/lean-4.35.0-rc2-linux/bin/con-ron",
+    "--jobs=2"
+   ]
+  }
+ },
+ "library_inventory_sha256": "4a08c2b88ee650b70d255cb5e67afa1847d7d5cc88d339a0e77d22e19d491bb9",
+ "submission_trees": {
+  "das-acyclic-bootstrap-874771265": "a9f75bea43507ecb11193ef396309aaa191d3bff",
+  "lewko-acyclic-bootstrap-874772906": "0a07c961b4ed9bb9dd2a83bf4d642a2a452a3597",
+  "openai-baseline": "e470d11a2c5b310e5d8fe5a6263acb376aff9cd6"
+ }
+}

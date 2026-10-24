@@ -1,0 +1,18 @@
+[
+  {
+    "phase": "sandbox controls",
+    "at": "2026-10-24T18:41:40.135028+00:00"
+  },
+  {
+    "phase": "positive, mismatched statement and ill-typed proof controls",
+    "at": "2026-10-24T18:41:43.112666+00:00"
+  },
+  {
+    "phase": "authenticate frozen exports",
+    "at": "2026-10-24T18:42:12.825982+00:00"
+  },
+  {
+    "phase": "nanoda check",
+    "at": "2026-10-24T18:42:40.557053+00:00"
+  }
+]

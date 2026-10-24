@@ -1,0 +1,17 @@
+sandbox controls
+positive, mismatched statement and ill-typed proof controls
+authenticate frozen exports
+nanoda check
+Traceback (most recent call last):
+  File "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/.github/das-verify/das_kernel.py", line 139, in <module>
+    result = v.sandboxed_run(kernel_args, cwd=directory,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/verification/environment/palomar/scripts/verify_submission.py", line 3182, in sandboxed_run
+    return _cgroup_supervised_run(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/verification/environment/palomar/scripts/verify_submission.py", line 3294, in _cgroup_supervised_run
+    return _classify_confined_result(command, proc, outcome, check=check)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/QuasiRiemannTracker/QuasiRiemannTracker/verification/environment/palomar/scripts/verify_submission.py", line 3206, in _classify_confined_result
+    raise ResourceExhausted(
+scripts.verify_submission.ResourceExhausted: worker resource ceiling reached while running nanoda_bin (exit 137, result oom-kill)

@@ -1,0 +1,15 @@
+Candidate/ReturnA/CountDecode.lean:25:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Candidate/ReturnA/CountDecode.lean:40:25: warning: `if_true` has been deprecated: Use `ite_true` instead
+Candidate/ReturnA/CountDecode.lean:50:25: warning: `if_false` has been deprecated: Use `ite_false` instead
+Candidate/ReturnA/CountDecode.lean:50:25: warning: This simp argument is unused:
+  if_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [lowerM, hc, branchZ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Das.QRH.ReturnA.branch_plain_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Das.QRH.ReturnA.admitted_natural_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+

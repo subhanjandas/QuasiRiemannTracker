@@ -1,0 +1,3 @@
+'Das.QRH.ReturnA.new_interval_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Das.QRH.ReturnA.old_interval_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+

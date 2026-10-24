@@ -1,0 +1,18 @@
+[
+  {
+    "phase": "sandbox controls",
+    "at": "2026-10-24T18:41:30.029251+00:00"
+  },
+  {
+    "phase": "positive, mismatched statement and ill-typed proof controls",
+    "at": "2026-10-24T18:41:33.084292+00:00"
+  },
+  {
+    "phase": "authenticate frozen exports",
+    "at": "2026-10-24T18:42:05.307004+00:00"
+  },
+  {
+    "phase": "con-ron check",
+    "at": "2026-10-24T18:42:24.104017+00:00"
+  }
+]

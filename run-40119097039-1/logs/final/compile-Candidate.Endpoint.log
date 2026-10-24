@@ -1,0 +1,10 @@
+Candidate/Endpoint.lean:28:44: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+Candidate/Endpoint.lean:48:35: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'Das.QRH.Endpoint.first_family_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Das.QRH.Endpoint.family_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Das.QRH.Endpoint.dirichlet_nonvanishing' depends on axioms: [propext, Classical.choice, Quot.sound]
+

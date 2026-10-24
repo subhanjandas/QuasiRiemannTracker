@@ -1,0 +1,4 @@
+'DasStageAFinite.countJ_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DasStageAFinite.edgeD_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DasStageAFinite.exponent_lt_of_margin' depends on axioms: [propext, Classical.choice, Quot.sound]
+

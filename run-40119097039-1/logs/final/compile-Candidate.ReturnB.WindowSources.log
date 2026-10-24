@@ -1,0 +1,3 @@
+'Das.QRH.ReturnB.all_counting_sources_common_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Das.QRH.ReturnB.all_detector_inputs_of_global_sources' depends on axioms: [propext, Classical.choice, Quot.sound]
+

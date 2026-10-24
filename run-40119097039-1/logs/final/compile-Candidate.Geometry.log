@@ -1,0 +1,9 @@
+Candidate/Geometry.lean:32:0: warning: Definition `boundsA` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+Candidate/Geometry.lean:68:0: warning: Definition `boundsB` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+'Das.QRH.TrackerGeometry.boundsA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Das.QRH.TrackerGeometry.boundsB' depends on axioms: [propext, Classical.choice, Quot.sound]
+

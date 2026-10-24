@@ -1,0 +1,2 @@
+'Das.QRH.FamilyTransfer.dirichlet_of_family_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+

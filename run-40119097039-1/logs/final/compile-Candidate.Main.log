@@ -1,0 +1,4 @@
+@Candidate.bound : ∀ {q : ℕ} [inst : NeZero q] (χ : DirichletCharacter ℂ q) {s : ℂ},
+  174954253 / 200000000 < s.re → ¬(χ = 1 ∧ s = 1) → DirichletCharacter.LFunction χ s ≠ 0
+'Candidate.bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
