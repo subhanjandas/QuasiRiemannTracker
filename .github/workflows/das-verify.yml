@@ -1,0 +1,390 @@
+# Contributor-side pre-submission check for das-acyclic-bootstrap-874771265.
+# It runs the pinned upstream preparation, environment setup, Palomar sandbox,
+# per-module compiler, canonical Solution wrapper, Comparator and the Lean,
+# NanoDa and con-ron kernels, distributed over several GitHub-hosted workers
+# because the proof needs about 30 CPU-hours. It is not the maintainers'
+# protected admission and creates no admission record. This file lives only on
+# the verify/ branch and is not part of the result PR.
+name: Pre-submission verification (das-acyclic-bootstrap-874771265)
+on:
+  push:
+    branches: [verify/das-acyclic-bootstrap-874771265]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: das-verify
+  cancel-in-progress: true
+env:
+  QRH_RESULT_ID: das-acyclic-bootstrap-874771265
+  QRH_BOUND: 174954253/200000000
+  QRH_REPOSITORY: subhanjandas/QuasiRiemannTracker
+  QRH_HEAD: 7195a4d8ae01001cb9781c3a706c7bf28cca970a
+  QRH_UPSTREAM: 0ce80fdddebb03128d30a917006d8520e7a774b8
+jobs:
+  plan:
+    name: Check the exact submission head and select products
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    outputs:
+      reuse_run: ${{ steps.reuse.outputs.run }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+          fetch-depth: 3
+      - name: Check that only verification tooling differs from the exact submission head
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD~1)" = "$QRH_HEAD"
+          test "$(git rev-parse HEAD~2)" = "$QRH_UPSTREAM"
+          git diff --name-only "$QRH_HEAD" HEAD | tee /dev/stderr | grep -Ev '^\.github/(das-verify/|workflows/das-verify\.yml$)' && exit 1 || true
+          test -z "$(git diff --name-only "$QRH_UPSTREAM" "$QRH_HEAD" | grep -v "^submissions/$QRH_RESULT_ID/")"
+          echo "Verifier, core and dependency sources are byte-identical to upstream $QRH_UPSTREAM"
+      - name: Select products from an earlier run of this workflow, if configured
+        id: reuse
+        run: |
+          run=$(python3 -c 'import json;print(json.load(open(".github/das-verify/reuse.json")).get("run_id") or "")')
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+          echo "Reusing products of run: ${run:-none}"
+
+  env:
+    name: Pinned environment and shared base modules
+    needs: plan
+    if: needs.plan.outputs.reuse_run == ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+          fetch-depth: 3
+      - name: Check that only verification tooling differs from the exact submission head
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD~1)" = "$QRH_HEAD"
+          test "$(git rev-parse HEAD~2)" = "$QRH_UPSTREAM"
+          git diff --name-only "$QRH_HEAD" HEAD | tee /dev/stderr | grep -Ev '^\.github/(das-verify/|workflows/das-verify\.yml$)' && exit 1 || true
+          test -z "$(git diff --name-only "$QRH_UPSTREAM" "$QRH_HEAD" | grep -v "^submissions/$QRH_RESULT_ID/")"
+          echo "Verifier, core and dependency sources are byte-identical to upstream $QRH_UPSTREAM"
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22.17.0
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Read the exact submitted Lean source (upstream preparation)
+        run: |
+          set -euo pipefail
+          mkdir -p verification-context
+          node -e 'const fs=require("fs");const e={repository:process.env.QRH_REPOSITORY,number:0,head_sha:process.env.QRH_HEAD,result_id:process.env.QRH_RESULT_ID,theta_exact:process.env.QRH_BOUND};fs.writeFileSync("verification-context/context.json",JSON.stringify({expected:e,expectations:[e]},null,2)+"\n")'
+          node verifier/actions/prepare.mjs
+          python3 - <<'EOF'
+          import json
+          c = json.load(open('verification/prepared/contract.json'))
+          plan = json.load(open('.github/das-verify/plan.json'))
+          order = c['build_order']
+          assert c['head_sha'] == c['source_commit']
+          assert len(order) == plan['module_count'], (len(order), plan['module_count'])
+          leaves = sorted(m for s in plan['shards'] for m in s)
+          assert len(leaves) == len(set(leaves))
+          own = [m for m in order if m.startswith('Candidate.')]
+          assert set(own) == set(leaves) | set(plan['final']) | {m for m in plan['base'] if m.startswith('Candidate.')}
+          print('Plan covers', len(order), 'modules:', len(own), 'own,', len(order) - len(own), 'public')
+          EOF
+      - name: Install the upstream worker prerequisites
+        run: |
+          sudo rm -rf -- /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends meson ninja-build libcap-dev pkg-config zstd libgmp-dev python3-yaml
+          sudo loginctl enable-linger "$(id -un)"
+          echo "XDG_RUNTIME_DIR=/run/user/$(id -u)" >> "$GITHUB_ENV"
+          echo "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus" >> "$GITHUB_ENV"
+      - name: Build the pinned checking environment (upstream setup)
+        timeout-minutes: 120
+        run: python3 verifier/actions/setup.py
+      - name: Compile the shared base modules
+        run: |
+          set -euo pipefail
+          python3 .github/das-verify/make_driver.py "$GITHUB_WORKSPACE"
+          python3 -c 'import json;print(json.dumps(json.load(open(".github/das-verify/plan.json"))["base"]))' > "$RUNNER_TEMP/targets.json"
+          .github/das-verify/run_logged.sh "$RUNNER_TEMP/out/logs/driver-output.log" python3 verifier/standard/das-driver.py --profile verification/profile.json --prepared verification/prepared \
+            --work verification/run --tool-pins verification/tool-pins.json --mode compile \
+            --targets "$RUNNER_TEMP/targets.json" --products-out "$RUNNER_TEMP/out" --budget 5400
+      - name: Package the environment for the other workers
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/env-out"
+          cd "$GITHUB_WORKSPACE"
+          tar -cf - verification/environment/lean-4.34.1-linux verification/environment/lean-4.35.0-rc2-linux \
+            verification/environment/palomar verification/environment/lean4export | zstd -T0 -3 -q -o "$RUNNER_TEMP/env-out/env-tools.tar.zst"
+          tar -cf - verification/environment/project | zstd -T0 -3 -q -o "$RUNNER_TEMP/env-out/env-packages.tar.zst"
+          tar -cf - verification/profile.json verification/tool-pins.json verification/imports.json verification/prepared verification-context \
+            | zstd -T0 -3 -q -o "$RUNNER_TEMP/env-out/state.tar.zst"
+          cd "$RUNNER_TEMP/env-out" && for f in *.tar.zst; do sha256sum "$f" > "$f.sha256"; done && ls -la
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: env-tools
+          path: ${{ runner.temp }}/env-out/env-tools.tar.zst*
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: env-packages
+          path: ${{ runner.temp }}/env-out/env-packages.tar.zst*
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: state
+          path: ${{ runner.temp }}/env-out/state.tar.zst*
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: products-base
+          path: ${{ runner.temp }}/out/products.tar.zst*
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: reports-env
+          path: |
+            ${{ runner.temp }}/out/*.json
+            ${{ runner.temp }}/out/logs/
+            ${{ runner.temp }}/out/all-logs.tar.gz
+          retention-days: 7
+          if-no-files-found: warn
+
+  inputs:
+    name: Admitted public inputs (Lewko and OpenAI sources)
+    needs: [plan, env]
+    if: needs.plan.outputs.reuse_run == ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: ./.github/das-verify/restore
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: products-base
+          path: ${{ runner.temp }}/pre/base
+      - name: Try the upstream signed compilation cache
+        continue-on-error: true
+        run: python3 verifier/actions/restore-build.py
+      - name: Compile every admitted public input module
+        run: |
+          set -euo pipefail
+          python3 -c 'import json;c=json.load(open("verification/prepared/contract.json"));print(json.dumps([m for m in c["build_order"] if m.startswith("Submissions.")]))' > "$RUNNER_TEMP/targets.json"
+          .github/das-verify/run_logged.sh "$RUNNER_TEMP/out/logs/driver-output.log" python3 verifier/standard/das-driver.py --profile verification/profile.json --prepared verification/prepared \
+            --work verification/run --tool-pins verification/tool-pins.json --mode compile \
+            --targets "$RUNNER_TEMP/targets.json" --prebuilt "$RUNNER_TEMP/pre/base/products.tar.zst" \
+            --products-out "$RUNNER_TEMP/out" --budget 19800
+      - name: Keep the signed-cache diagnostics with the report
+        if: always()
+        run: mkdir -p "$RUNNER_TEMP/out" && cp verification/build-cache-status.json "$RUNNER_TEMP/out/" || true
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: products-inputs
+          path: ${{ runner.temp }}/out/products.tar.zst*
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: reports-inputs
+          path: |
+            ${{ runner.temp }}/out/*.json
+            ${{ runner.temp }}/out/logs/
+            ${{ runner.temp }}/out/all-logs.tar.gz
+          retention-days: 7
+          if-no-files-found: warn
+
+  shard:
+    name: Certificate shard ${{ matrix.shard }}
+    needs: [plan, env]
+    if: needs.plan.outputs.reuse_run == ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: ./.github/das-verify/restore
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: products-base
+          path: ${{ runner.temp }}/pre/base
+      - name: Compile this shard of graph, admission and row certificates
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: |
+          set -euo pipefail
+          python3 -c 'import json,os;print(json.dumps(json.load(open(".github/das-verify/plan.json"))["shards"][int(os.environ["SHARD"])]))' > "$RUNNER_TEMP/targets.json"
+          .github/das-verify/run_logged.sh "$RUNNER_TEMP/out/logs/driver-output.log" python3 verifier/standard/das-driver.py --profile verification/profile.json --prepared verification/prepared \
+            --work verification/run --tool-pins verification/tool-pins.json --mode compile \
+            --targets "$RUNNER_TEMP/targets.json" --prebuilt "$RUNNER_TEMP/pre/base/products.tar.zst" \
+            --products-out "$RUNNER_TEMP/out" --budget 16200
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: products-shard-${{ matrix.shard }}
+          path: ${{ runner.temp }}/out/products.tar.zst*
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: reports-shard-${{ matrix.shard }}
+          path: |
+            ${{ runner.temp }}/out/*.json
+            ${{ runner.temp }}/out/logs/
+            ${{ runner.temp }}/out/all-logs.tar.gz
+          retention-days: 7
+          if-no-files-found: warn
+
+  final:
+    name: Assembly, Candidate.Main and canonical Solution export
+    needs: [plan, inputs, shard]
+    if: >-
+      always() && needs.plan.result == 'success' &&
+      (needs.plan.outputs.reuse_run != '' || (needs.inputs.result == 'success' && needs.shard.result == 'success'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: ./.github/das-verify/restore
+        with:
+          artifact-run: ${{ needs.plan.outputs.reuse_run || github.run_id }}
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: products-*
+          path: ${{ runner.temp }}/pre
+          run-id: ${{ needs.plan.outputs.reuse_run || github.run_id }}
+          github-token: ${{ github.token }}
+      - name: Compile the remaining modules, Candidate.Main and the Solution wrapper
+        run: |
+          set -euo pipefail
+          echo '["Candidate.Main"]' > "$RUNNER_TEMP/targets.json"
+          prebuilt=()
+          for archive in "$RUNNER_TEMP"/pre/*/products.tar.zst; do prebuilt+=(--prebuilt "$archive"); done
+          echo "Restoring ${#prebuilt[@]} product arguments"
+          .github/das-verify/run_logged.sh "$RUNNER_TEMP/out/logs/driver-output.log" python3 verifier/standard/das-driver.py --profile verification/profile.json --prepared verification/prepared \
+            --work verification/run --tool-pins verification/tool-pins.json --mode final \
+            --targets "$RUNNER_TEMP/targets.json" "${prebuilt[@]}" \
+            --products-out "$RUNNER_TEMP/out" --budget 19800
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: final-exports
+          path: ${{ runner.temp }}/out/exports/
+          compression-level: 0
+          retention-days: 3
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: reports-final
+          path: |
+            ${{ runner.temp }}/out/*.json
+            ${{ runner.temp }}/out/logs/
+            ${{ runner.temp }}/out/all-logs.tar.gz
+          retention-days: 7
+          if-no-files-found: warn
+
+  kernel:
+    name: Kernel check (${{ matrix.kernel }})
+    needs: [plan, final]
+    if: always() && needs.final.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 355
+    permissions:
+      contents: read
+      actions: read
+    strategy:
+      fail-fast: false
+      matrix:
+        kernel: [Lean default, nanoda, con-ron]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: ./.github/das-verify/restore
+        with:
+          packages: "false"
+          artifact-run: ${{ needs.plan.outputs.reuse_run || github.run_id }}
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: final-exports
+          path: ${{ runner.temp }}/exports
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: reports-final
+          path: ${{ runner.temp }}/final
+      - name: Run the check on the frozen exports
+        env:
+          KERNEL: ${{ matrix.kernel }}
+        run: |
+          .github/das-verify/run_logged.sh "$RUNNER_TEMP/kernel/logs/driver-output.log" python3 .github/das-verify/das_kernel.py --kernel "$KERNEL" --exports "$RUNNER_TEMP/exports" \
+            --final-report "$RUNNER_TEMP/final/final-report.json" --timeout 18000 --out "$RUNNER_TEMP/kernel"
+      - name: Name the report
+        if: always()
+        env:
+          KERNEL: ${{ matrix.kernel }}
+        run: echo "KERNEL_SLUG=$(echo "$KERNEL" | tr ' ' '-' | tr 'A-Z' 'a-z')" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: reports-kernel-${{ env.KERNEL_SLUG }}
+          path: |
+            ${{ runner.temp }}/kernel/*.json
+            ${{ runner.temp }}/kernel/logs/
+          retention-days: 7
+          if-no-files-found: warn
+
+  report:
+    name: Publish the run summary
+    needs: [plan, env, inputs, shard, final, kernel]
+    if: always()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          pattern: reports-*
+          path: ${{ runner.temp }}/reports
+      - name: Summarize and commit to the results branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          QRH_REUSE_RUN: ${{ needs.plan.outputs.reuse_run }}
+        run: |
+          set -euo pipefail
+          python3 .github/das-verify/summarize.py "$RUNNER_TEMP/reports" "$RUNNER_TEMP/results/run-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          cd "$RUNNER_TEMP/results"
+          git init -q -b results
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="verify-results/$QRH_RESULT_ID"
+          url="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git fetch -q --depth 1 "$url" "refs/heads/$branch" 2>/dev/null; then
+            git checkout -q FETCH_HEAD -- . 2>/dev/null || true
+            git reset -q --soft FETCH_HEAD
+          fi
+          git add -A
+          git commit -q -m "Pre-submission run $GITHUB_RUN_ID attempt $GITHUB_RUN_ATTEMPT for $QRH_HEAD"
+          git push -q "$url" "HEAD:refs/heads/$branch"
+          echo "Published run summary to $branch"

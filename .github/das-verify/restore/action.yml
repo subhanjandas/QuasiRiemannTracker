@@ -1,0 +1,83 @@
+name: Restore the pinned checking environment
+description: >
+  Prepare a fresh worker exactly as the upstream PR-admission worker does, then
+  restore the environment built by the env job of this run.
+inputs:
+  packages:
+    description: Also restore the Lean package libraries (Mathlib and pinned packages)
+    default: "true"
+  artifact-run:
+    description: Workflow run that produced the environment artifacts (default this run)
+    default: ""
+  github-token:
+    description: Token with actions:read, used only to download artifacts of an earlier run
+    default: ""
+runs:
+  using: composite
+  steps:
+    - name: Make space on the disposable runner
+      shell: bash
+      run: |
+        sudo rm -rf -- /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
+        sudo docker image prune --all --force >/dev/null 2>&1 || true
+        df -h "$GITHUB_WORKSPACE"
+    - name: Install the upstream worker prerequisites
+      shell: bash
+      run: |
+        sudo apt-get update -qq
+        sudo apt-get install -y --no-install-recommends meson ninja-build libcap-dev pkg-config zstd libgmp-dev python3-yaml
+        sudo loginctl enable-linger "$(id -un)"
+        echo "XDG_RUNTIME_DIR=/run/user/$(id -u)" >> "$GITHUB_ENV"
+        echo "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/$(id -u)/bus" >> "$GITHUB_ENV"
+    - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      if: (inputs.artifact-run == '' || inputs.artifact-run == github.run_id)
+      with:
+        name: env-tools
+        path: ${{ runner.temp }}/env
+    - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      if: ${{ !(inputs.artifact-run == '' || inputs.artifact-run == github.run_id) }}
+      with:
+        name: env-tools
+        path: ${{ runner.temp }}/env
+        run-id: ${{ inputs.artifact-run }}
+        github-token: ${{ inputs.github-token }}
+    - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      if: inputs.packages == 'true' && (inputs.artifact-run == '' || inputs.artifact-run == github.run_id)
+      with:
+        name: env-packages
+        path: ${{ runner.temp }}/env
+    - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      if: inputs.packages == 'true' && !(inputs.artifact-run == '' || inputs.artifact-run == github.run_id)
+      with:
+        name: env-packages
+        path: ${{ runner.temp }}/env
+        run-id: ${{ inputs.artifact-run }}
+        github-token: ${{ inputs.github-token }}
+    - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      if: (inputs.artifact-run == '' || inputs.artifact-run == github.run_id)
+      with:
+        name: state
+        path: ${{ runner.temp }}/env
+    - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+      if: ${{ !(inputs.artifact-run == '' || inputs.artifact-run == github.run_id) }}
+      with:
+        name: state
+        path: ${{ runner.temp }}/env
+        run-id: ${{ inputs.artifact-run }}
+        github-token: ${{ inputs.github-token }}
+    - name: Unpack the environment at the original absolute paths
+      shell: bash
+      run: |
+        set -euo pipefail
+        mkdir -p verification
+        for part in env-tools env-packages state; do
+          if [ -f "$RUNNER_TEMP/env/$part.tar.zst" ]; then
+            (cd "$RUNNER_TEMP/env" && sha256sum --check --quiet "$part.tar.zst.sha256")
+            zstd -d -q -c "$RUNNER_TEMP/env/$part.tar.zst" | tar -x -C "$GITHUB_WORKSPACE"
+            rm -f "$RUNNER_TEMP/env/$part.tar.zst"
+          fi
+        done
+        # Palomar installs bubblewrap and its AppArmor profile per VM.
+        bash verification/environment/palomar/scripts/install_bwrap.sh "$GITHUB_WORKSPACE/verification/environment/bwrap-bin"
+        python3 .github/das-verify/make_driver.py "$GITHUB_WORKSPACE"
+        df -h "$GITHUB_WORKSPACE"
