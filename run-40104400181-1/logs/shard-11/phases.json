@@ -1,0 +1,22 @@
+[
+  {
+    "phase": "sandbox controls",
+    "at": "2026-10-24T15:09:24.732337+00:00"
+  },
+  {
+    "phase": "positive, mismatched statement and ill-typed proof controls",
+    "at": "2026-10-24T15:09:30.419206+00:00"
+  },
+  {
+    "phase": "compile and freeze canonical challenge",
+    "at": "2026-10-24T15:10:06.603014+00:00"
+  },
+  {
+    "phase": "candidate mount controls",
+    "at": "2026-10-24T15:10:40.356915+00:00"
+  },
+  {
+    "phase": "compile standard candidate",
+    "at": "2026-10-24T15:10:45.733245+00:00"
+  }
+]

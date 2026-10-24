@@ -1,0 +1,2 @@
+'DasStageAFinite.admission036_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+

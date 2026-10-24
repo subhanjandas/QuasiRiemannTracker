@@ -1,0 +1,6176 @@
+{
+ "run": {
+  "run_id": "40104400181",
+  "run_attempt": "1",
+  "workflow_sha": "272bd5ce7eb571c94a04cac9322913ff281efed3",
+  "repository": "subhanjandas/QuasiRiemannTracker",
+  "run_url": "https://github.com/subhanjandas/QuasiRiemannTracker/actions/runs/40104400181",
+  "submission_head": "7195a4d8ae01001cb9781c3a706c7bf28cca970a"
+ },
+ "stages": {
+  "env": "PASS",
+  "inputs": "PASS",
+  "shard-0": "PASS",
+  "shard-1": "PASS",
+  "shard-10": "PASS",
+  "shard-11": "PASS",
+  "shard-12": "PASS",
+  "shard-13": "PASS",
+  "shard-14": "PASS",
+  "shard-15": "PASS",
+  "shard-2": "PASS",
+  "shard-3": "PASS",
+  "shard-4": "PASS",
+  "shard-5": "PASS",
+  "shard-6": "PASS",
+  "shard-7": "PASS",
+  "shard-8": "PASS",
+  "shard-9": "PASS"
+ },
+ "axioms_printed": {
+  "Das.QRH.CoreFastSource.source_sound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.FastSource.source_sound": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount013.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount024.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount043.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount076.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount100.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount119.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount130.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount145.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount162.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount163.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical032.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical049.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical054.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical065.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical074.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical079.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical088.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical101.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical113.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical138.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical144.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical152.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount021.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount037.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount047.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount052.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount067.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount074.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount109.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount141.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount156.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical012.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical021.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical026.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical047.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical059.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical068.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical072.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical076.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical143.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical144.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission026_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission030_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row011_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row045_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row056_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row073_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row075_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row114_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row117_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row123_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row131_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row143_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row179_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row191_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row208_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row212_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission016_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission028_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row010_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row013_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row038_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row065_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row068_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row071_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row107_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row125_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row132_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row154_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row172_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row193_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row195_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row224_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount012.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount025.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount030.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount042.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount045.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount052.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount068.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount107.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount113.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount124.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount125.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount126.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount128.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount136.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount139.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount160.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount164.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical010.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical056.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical092.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical111.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical151.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount012.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount039.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount053.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount078.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount092.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount108.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount112.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount139.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical011.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical022.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical035.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical037.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical063.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical096.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical105.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical109.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical115.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical135.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical145.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission000_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission006_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission018_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission024_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission027_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row049_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row059_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row102_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row113_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row120_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row125_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row146_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row161_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row174_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row185_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row202_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission014_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission019_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission035_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row011_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row023_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row058_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row061_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row064_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row073_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row128_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row133_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row141_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row161_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row167_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row191_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row203_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount006.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount008.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount061.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount075.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount085.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount103.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount121.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount167.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical003.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical007.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical025.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical026.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical072.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical073.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical093.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical129.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical134.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical145.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical146.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount038.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount041.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount050.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount051.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount059.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount062.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount081.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount082.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount084.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount110.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount142.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical046.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical050.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical051.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical053.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical062.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical094.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical130.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical134.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical137.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical140.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical151.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission005_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission029_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission032_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission033_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row007_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row033_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row034_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row042_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row071_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row099_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row105_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row107_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row112_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row129_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row149_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row158_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row172_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row194_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row195_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission017_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission022_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission027_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row045_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row046_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row082_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row105_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row126_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row152_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row157_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row196_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row209_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row216_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount000.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount010.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount055.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount077.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount083.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount088.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount110.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount123.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount149.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical029.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical030.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical051.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical053.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical059.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical091.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical108.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical109.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount017.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount020.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount027.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount033.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount063.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount073.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount094.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount103.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount114.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount124.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount143.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount151.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical001.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical036.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical048.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical070.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical073.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical114.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical116.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical117.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical120.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical124.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical125.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical139.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission008_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission011_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission015_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row006_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row012_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row041_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row044_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row054_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row058_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row074_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row079_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row081_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row094_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row106_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row109_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row132_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row176_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row221_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row004_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row012_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row036_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row062_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row100_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row162_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row165_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row170_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row174_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row178_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row180_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row199_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row201_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row220_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount001.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount003.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount011.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount033.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount050.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount051.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount069.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount089.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount101.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount122.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount127.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount155.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount156.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount161.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical047.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical067.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical068.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical117.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical120.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount026.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount032.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount034.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount058.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount085.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount089.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount107.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount145.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount147.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount149.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount166.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical029.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical080.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical086.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical101.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical111.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical112.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical119.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical121.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical122.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical127.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission031_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row016_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row053_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row077_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row082_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row084_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row124_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row151_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row153_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row155_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row167_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row197_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row209_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row211_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row214_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row222_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission002_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission007_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission015_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission026_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission031_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row021_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row028_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row053_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row055_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row078_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row099_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row104_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row168_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row175_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row183_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row206_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row218_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount002.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount028.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount047.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount048.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount056.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount066.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount070.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount086.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount091.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount098.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount116.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount117.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount134.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount143.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount144.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical009.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical019.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical037.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical058.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical063.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical075.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical086.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical103.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical122.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical125.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical128.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical140.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount016.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount069.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount072.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount090.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount097.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount099.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount104.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount115.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount131.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount144.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical014.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical017.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical092.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission010_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission013_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission021_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row001_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row004_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row027_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row046_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row050_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row061_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row083_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row086_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row096_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row122_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row170_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row183_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row184_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row188_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission001_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission004_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission010_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row034_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row044_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row056_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row063_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row079_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row112_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row119_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row122_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row124_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row155_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row160_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row184_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row214_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount014.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount026.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount031.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount074.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount079.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount096.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount118.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount138.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical002.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical012.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical023.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical028.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical052.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical081.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical082.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical090.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical116.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical118.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical121.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical131.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount009.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount022.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount048.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount066.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount070.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount088.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount101.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount120.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount128.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount130.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount148.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount150.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount157.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical043.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical044.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical069.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical098.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical108.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical138.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical149.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission014_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission016_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission037_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row055_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row093_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row097_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row108_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row111_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row115_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row116_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row127_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row138_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row145_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row166_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row169_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row181_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row187_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row199_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission020_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission029_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission030_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission036_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row005_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row070_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row101_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row110_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row121_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row129_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row156_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row164_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row188_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row194_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row200_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount015.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount029.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount078.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount080.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount090.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount094.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount106.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount137.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount147.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount148.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount150.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical038.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical040.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical045.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical095.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical110.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical112.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical136.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical143.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount002.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount003.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount004.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount028.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount040.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount075.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount095.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount121.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount122.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount123.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount140.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical007.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical010.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical023.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical033.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical034.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical058.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical064.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical081.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical093.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical099.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical107.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission009_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row024_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row043_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row065_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row068_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row092_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row095_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row101_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row128_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row164_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row173_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row175_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row177_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row196_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row200_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row206_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row216_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission009_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission032_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission034_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row009_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row020_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row037_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row040_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row059_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row075_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row089_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row117_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row163_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row190_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row208_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row221_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount020.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount059.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount092.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount097.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical014.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical033.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical043.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical044.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical060.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical071.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical076.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical083.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical087.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical096.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical104.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical114.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical115.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical126.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical137.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount010.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount011.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount014.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount106.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount119.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount155.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical008.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical019.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical040.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical055.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical056.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical067.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical075.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical083.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical084.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical110.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical113.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical118.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical132.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical141.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical142.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission007_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission022_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row009_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row060_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row066_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row069_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row070_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row085_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row090_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row103_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row130_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row135_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row148_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row192_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row217_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row223_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission000_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission011_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission021_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row001_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row024_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row025_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row031_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row083_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row103_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row134_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row142_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row145_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row149_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row150_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row169_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row173_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row212_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount004.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount022.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount057.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount073.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount104.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount142.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount158.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount159.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical020.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical034.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical035.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical094.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical106.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical119.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical130.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical133.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount000.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount007.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount044.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount056.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount079.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount102.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount111.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount113.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount126.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount135.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount167.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical009.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical020.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical032.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical041.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical042.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical045.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical052.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical057.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical065.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical128.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical133.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical147.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission001_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission034_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission035_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row013_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row019_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row025_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row026_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row047_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row051_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row072_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row076_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row078_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row087_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row091_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row104_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row126_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row139_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row156_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row165_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row182_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row205_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row207_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row219_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission003_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row016_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row022_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row049_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row057_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row120_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row131_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row176_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row187_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row192_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row222_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount035.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount046.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount063.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount099.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount108.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount109.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount146.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount153.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical018.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical024.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical041.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical069.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical080.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical084.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical100.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical123.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical141.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical150.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount005.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount036.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount043.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount049.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount055.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount076.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount080.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount087.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount100.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount117.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount125.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount132.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount136.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount152.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount154.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount162.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical003.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical016.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical025.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical030.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical095.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical097.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical150.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row015_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row018_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row031_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row048_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row088_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row118_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row133_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row152_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row171_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row189_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row204_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row220_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission005_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission025_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row008_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row030_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row041_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row072_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row080_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row084_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row088_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row111_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row127_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row136_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row144_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row147_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row153_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row158_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row159_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row179_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row205_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row211_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount018.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount023.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount084.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount093.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount135.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount140.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount152.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount157.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical000.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical017.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical042.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical070.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical085.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical102.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical124.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical132.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical139.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical148.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount019.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount023.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount025.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount030.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount064.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount083.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount096.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount137.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount146.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount164.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical002.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical013.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical027.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical031.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical038.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical054.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical087.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical088.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical090.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical129.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical148.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical152.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission017_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row008_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row014_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row023_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row032_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row037_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row040_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row057_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row064_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row100_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row140_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row141_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row150_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row186_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row201_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row213_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission024_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row006_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row014_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row019_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row026_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row032_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row033_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row039_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row048_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row077_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row086_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row092_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row095_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row109_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row116_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row146_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row185_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount017.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount019.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount032.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount037.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount039.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount041.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount044.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount065.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount067.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount095.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount102.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount114.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount115.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount129.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount151.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount154.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount165.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount166.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical013.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical015.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical062.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical089.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical098.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical127.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical135.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount024.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount031.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount060.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount068.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount105.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount153.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount160.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount168.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical004.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical024.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical061.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical071.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical078.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical136.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission012_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission025_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission028_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row038_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row039_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row089_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row136_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row137_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row160_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row162_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row180_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row190_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row224_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission012_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission018_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission033_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row003_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row015_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row018_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row029_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row047_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row050_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row060_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row081_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row085_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row090_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row093_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row135_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row139_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row148_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row171_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row177_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row189_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row213_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount009.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount036.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount058.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount064.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount071.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount081.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount087.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount112.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical001.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical004.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical005.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical021.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical036.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical039.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical061.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical077.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical078.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical107.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount006.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount008.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount015.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount029.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount035.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount042.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount061.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount071.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount086.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount093.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount134.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount138.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount165.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical005.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical006.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical018.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical074.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical079.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical102.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical103.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical104.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission019_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission023_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row003_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row017_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row020_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row028_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row030_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row036_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row052_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row062_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row063_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row098_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row134_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row144_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row159_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row178_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row215_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission023_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission037_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row002_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row052_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row066_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row074_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row076_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row087_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row091_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row106_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row130_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row138_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row204_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row207_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row215_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row219_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row223_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount007.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount016.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount021.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount027.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount034.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount038.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount040.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount054.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount060.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount082.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount111.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount131.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount133.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical008.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical011.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical016.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical022.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical027.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical031.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical046.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical048.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical057.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical097.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical142.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical147.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical149.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount013.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount045.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount091.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount129.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount159.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount163.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical000.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical028.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical077.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical085.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical089.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical100.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical106.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical123.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission003_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission004_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission036_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row002_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row010_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row022_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row029_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row067_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row110_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row119_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row121_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row147_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row154_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row203_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row210_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row218_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission006_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row027_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row051_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row054_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row067_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row094_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row096_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row098_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row113_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row123_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row140_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row143_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row166_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row181_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row182_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row186_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row202_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount005.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount049.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount053.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount062.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount072.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount105.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount120.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount132.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount141.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.ACount168.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical006.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical050.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical055.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical064.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical066.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical099.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.APhysical105.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount001.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount018.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount046.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount054.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount057.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount065.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount077.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount098.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount116.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount118.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount127.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount133.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount158.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BCount161.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical015.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical039.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical049.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical060.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical066.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical082.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical091.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical126.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical131.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "Das.QRH.Graphs.BPhysical146.advance": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission002_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.admission020_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row005_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row021_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row035_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row080_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row142_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row157_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row163_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row168_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row193_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageAFinite.row198_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission008_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.admission013_all": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row007_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row017_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row035_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row042_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row043_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row069_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row097_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row102_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row108_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row114_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row115_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row118_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row137_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row151_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row197_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row198_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row210_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ],
+  "DasStageBFinite.row217_pos": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "non_standard_axioms": [],
+ "compile_errors": {},
+ "stage_details": {
+  "env": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 10,
+    "required": 10,
+    "compiled": 10,
+    "restored": 0,
+    "packed": 10,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 39.2
+   }
+  },
+  "inputs": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 6632,
+    "required": 3707,
+    "compiled": 6632,
+    "restored": 2925,
+    "packed": 6632,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 37471.7
+   }
+  },
+  "shard-0": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3920.4
+   }
+  },
+  "shard-1": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3888.7
+   }
+  },
+  "shard-10": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 5672.7
+   }
+  },
+  "shard-11": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 4918.0
+   }
+  },
+  "shard-12": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 4840.8
+   }
+  },
+  "shard-13": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 5140.0
+   }
+  },
+  "shard-14": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3955.3
+   }
+  },
+  "shard-15": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 82,
+    "required": 73,
+    "compiled": 82,
+    "restored": 9,
+    "packed": 82,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 5016.0
+   }
+  },
+  "shard-2": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 4596.4
+   }
+  },
+  "shard-3": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3273.2
+   }
+  },
+  "shard-4": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 4754.2
+   }
+  },
+  "shard-5": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 82,
+    "required": 73,
+    "compiled": 82,
+    "restored": 9,
+    "packed": 82,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3776.8
+   }
+  },
+  "shard-6": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3829.6
+   }
+  },
+  "shard-7": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3136.5
+   }
+  },
+  "shard-8": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 4897.4
+   }
+  },
+  "shard-9": {
+   "compile-report.json": {
+    "mode": "compile",
+    "head_sha": "7195a4d8ae01001cb9781c3a706c7bf28cca970a",
+    "repository": "subhanjandas/QuasiRiemannTracker",
+    "targets_file": "/home/runner/work/_temp/targets.json",
+    "selected": 83,
+    "required": 73,
+    "compiled": 83,
+    "restored": 10,
+    "packed": 83,
+    "failure": null,
+    "post_checks_tools_libraries_source_challenge": true,
+    "compile_cpu_seconds": 3217.2
+   }
+  }
+ },
+ "all_three_kernels_accept": false,
+ "candidate_bound_axioms": null
+}

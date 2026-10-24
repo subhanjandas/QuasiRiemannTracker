@@ -1,0 +1,412 @@
+{
+"Candidate.CoreFastSource": {
+"olean_sha256": "024c53eae4031247d7aaac262383db713ee27b913ddabe447d87db5da3660825",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Candidate.CoreSource": {
+"olean_sha256": "a52a75b292681c99a8f4b64abade982125edcd6b4a0e6f262c26d0d00a1d4110",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Candidate.CoreVector": {
+"olean_sha256": "4b864a9f046280400778fa9ed1b6bd69794fabf242e12955b51de830183db8f0",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount018": {
+"olean_sha256": "89aa5211a2f045c83a860574ca581d45da36b07ae5443243e2a84fe7ccb0694f",
+"seconds": 95.2,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount023": {
+"olean_sha256": "80689651d71bb7782a8b4192afac9cb445647612a809d2ec23fc6696bc355396",
+"seconds": 91.7,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount084": {
+"olean_sha256": "aca1ebe90dc034b0fc6d05ad5a31afa6d32e71902a0de6fc9c291dd84a05ed4d",
+"seconds": 89.9,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount093": {
+"olean_sha256": "e075f8c9bb54d4a64b7aab9526af35ab1e1f304dcfa8528db90a1ce4b5001c02",
+"seconds": 89.9,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount135": {
+"olean_sha256": "77bd7cb96c34d4e0df1b4f081d44412b4bda1344d90d4c43eb3b441430bcc691",
+"seconds": 90.3,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount140": {
+"olean_sha256": "66f08d4082b67b5f845f98257234cbdcba7298bcecda63ae27c5e301d77a1ee9",
+"seconds": 91.9,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount152": {
+"olean_sha256": "7b706fc9698eefeb04c6e0e6a1e4f9f6c78bd1ab2c6af60c7666bc8c95ae8af4",
+"seconds": 91.2,
+"status": "compiled"
+},
+"Candidate.Graphs.ACount157": {
+"olean_sha256": "0240f894fd3687fb11135a2eaac562e93b30e3a7331c15c6cf8fa16817a014dd",
+"seconds": 92.5,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical000": {
+"olean_sha256": "d5c6face63280b485581030b18620dd698c1391d2f1d0b394952166b605a50b2",
+"seconds": 92.7,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical017": {
+"olean_sha256": "eaa6203a63b3212e157fa4a3431045560cbbbbc732625df91bd5a27e52309690",
+"seconds": 88.3,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical042": {
+"olean_sha256": "49e9c306ab25527f185eaf1d79ff18ce238d308741ab459091bfb4e14cd5a831",
+"seconds": 89.3,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical070": {
+"olean_sha256": "03dedf62e4ea2f34af135fd6e6bbf4ef7231128e3424e62e580150114dd380cc",
+"seconds": 89.5,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical085": {
+"olean_sha256": "5a3460b12d8545b427107c826826972bed5252d484eb910f94f0e17fbfb56bdd",
+"seconds": 88.5,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical102": {
+"olean_sha256": "43f8f02c817752f64da977f53714e3ab77311e7a43b3f53430d65c463a2d7d87",
+"seconds": 89.5,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical124": {
+"olean_sha256": "e4d38b209db674980a2d7e8fd1a17cc2db94f08179b4e49c8bf7c536919d32c0",
+"seconds": 89.9,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical132": {
+"olean_sha256": "32e914981f54dd685c1a8a5d62976ff933181b2bcd778fd68f42c2eb060099e2",
+"seconds": 89.7,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical139": {
+"olean_sha256": "3b32a1ce5bb580ea7f73d61fb8b10ab86678f8979b603aa2072c0416255a1a1c",
+"seconds": 90.0,
+"status": "compiled"
+},
+"Candidate.Graphs.APhysical148": {
+"olean_sha256": "536c0a2b1d844b5c4304e767f2a9b43f46b6ad190621afedb624867c21ecab65",
+"seconds": 89.5,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount019": {
+"olean_sha256": "ac9c621f7107ff71e41c92b33b6d96adf54d5a606bc6199b27179515e11e1742",
+"seconds": 91.3,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount023": {
+"olean_sha256": "dce760d17fae2a93d6a3550c680a548ae4bb3ccbd0c85679fca5508ae5c1864f",
+"seconds": 89.3,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount025": {
+"olean_sha256": "da5942b379c937eb0206c1e3de97207a60c78fa8ac96de6327afd1d3efc30de1",
+"seconds": 88.9,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount030": {
+"olean_sha256": "67d3ed74086c2889f5097183124a745b410f45b8aab845fd421c956a6a72a6ba",
+"seconds": 89.3,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount064": {
+"olean_sha256": "1fdda197be424c8cb76fb958453ceeda4ff68044bacf5b3debcca68888879209",
+"seconds": 89.7,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount083": {
+"olean_sha256": "1b5a834c93be11350176ad876a7b9bda2df8e42156b685e0e4d742fbefbe0586",
+"seconds": 90.5,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount096": {
+"olean_sha256": "ddc50e04ccd3b9343add63d789616845b8e282e975b89052b09a50e9896587c1",
+"seconds": 89.6,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount137": {
+"olean_sha256": "cdfc70686fbcca0ea52238beabb3b3a08c3658753cfb29d3540326b10a5b33a2",
+"seconds": 90.1,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount146": {
+"olean_sha256": "9bdbd3a67bbb95f0ba55920ffe81566c014b98571511989db480a2f4ec376461",
+"seconds": 90.3,
+"status": "compiled"
+},
+"Candidate.Graphs.BCount164": {
+"olean_sha256": "1b3d06da564815a904ed261b26193a2962465a7124f479496115b414a7453c5e",
+"seconds": 89.1,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical002": {
+"olean_sha256": "cf278973390a80a31d223b8267f2a91c7e356dbf0592abbb643620c0fa3b6f45",
+"seconds": 89.5,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical013": {
+"olean_sha256": "ad6220a6e99594421bd87df7ab34223a3f9c752169f520374e2cc5050b636920",
+"seconds": 87.1,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical027": {
+"olean_sha256": "dbcddc734e0a03d37389303e2370437b7a65c10dd415b00641f2dd0c7f26f4ba",
+"seconds": 88.1,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical031": {
+"olean_sha256": "02c84fd0fdd2d922b533357c58026f67f25b7d3f1d273c3e19355464ce224316",
+"seconds": 88.7,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical038": {
+"olean_sha256": "31db110fcb5f96233e66ac30c0ea0bd64fd0d9bc75a4184dc04986b33439ead9",
+"seconds": 87.5,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical054": {
+"olean_sha256": "45af911b3c8690ca3259b0b3ec3254b2bee50cc96e23fb127ff403e244308923",
+"seconds": 87.7,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical087": {
+"olean_sha256": "ce84515440672d32c310e401056cb992250b2f991047a0aefc1c4122fd2baa54",
+"seconds": 86.9,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical088": {
+"olean_sha256": "c61922540c60341a6cdefae1e561f054a49284c60ff831a8ab326505a3fe27b2",
+"seconds": 86.5,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical090": {
+"olean_sha256": "2943a3d11eeae91fa71fdca91623ee3a23662a495455b736fb7a1e8631e3332e",
+"seconds": 86.1,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical129": {
+"olean_sha256": "ae0a58d3868b00a71914a0c9bc6e23bb81a45f39c6fffed0468a2b13e7d88263",
+"seconds": 74.9,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical148": {
+"olean_sha256": "86eaf299eedfcce6b9fac894a5816deddcf8fedbb9db89b02d97d2415ae2c005",
+"seconds": 73.5,
+"status": "compiled"
+},
+"Candidate.Graphs.BPhysical152": {
+"olean_sha256": "1f95f96fcc080242724fc9bb27d158130a93454014dda72ceb5dfb080d1c0efb",
+"seconds": 44.5,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Admission017": {
+"olean_sha256": "e3b234274f5fe53c747a7d9d42896bc8e5c7ada9395d220aa9dd2de9e65425d3",
+"seconds": 40.5,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.ReturnConstants": {
+"olean_sha256": "71dbe9c7fc2d3ab9ecffee769056dac53a02e40e81d98a3c4239654e0006ad96",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.ReturnFormulas": {
+"olean_sha256": "33cf609e4291b4edfbdb0cd48cb87e77dfa7d9d26214f1893f816dbc1ebad22e",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row008": {
+"olean_sha256": "f49d6fa34beb6bec4bda5881998043986b6d0bd90914063c68dd64bab07f4b0a",
+"seconds": 6.3,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row014": {
+"olean_sha256": "9e8a45444968ff70cb158e92dc3971bf62d17170d10f82a5a73914c4279d2795",
+"seconds": 6.7,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row023": {
+"olean_sha256": "3b2ac06cef57e793794c89f98e5d636e6664596bfe05e51c03a858fe52474ae9",
+"seconds": 6.2,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row032": {
+"olean_sha256": "9a8c06fb6778d1719a2715c878da55b74f912d1556c885e9fdc436a92f19e432",
+"seconds": 6.3,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row037": {
+"olean_sha256": "6d52039fcf09d168c6079bdc71f66a5a989fce3439f6d9fcefa4745c538b144a",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row040": {
+"olean_sha256": "ce4413c5cab353abe0bdefd138b0ce84af5259ddd185a749a952a7204783fc47",
+"seconds": 5.7,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row057": {
+"olean_sha256": "141a956f6867235f075de0e615f94e807c4841a4a496adbf7abbba03fb4e80ea",
+"seconds": 6.2,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row064": {
+"olean_sha256": "af855d984a9a4a4eff3f9de7062f78c1b1e68c56f89051d99c43c8eae0c91b03",
+"seconds": 5.6,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row100": {
+"olean_sha256": "7ac36ecbf8de90fee11c6632201b6375f737fa957befeb7a00dfd107b17c6592",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row140": {
+"olean_sha256": "ab1b5a5c173b0add20c13c7c35523a27cb0cf3e676ac1670e33932354b1e69ee",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row141": {
+"olean_sha256": "8b3ad273cfab1f399d426bcec926fb724176bc49704671458809cf867257e738",
+"seconds": 5.8,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row150": {
+"olean_sha256": "1a60196cfe04187801e3308d9a7f3f73c6113b4eaea50c0e03f8e3ad9464e867",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row186": {
+"olean_sha256": "23b06d063e11242220f074c933fac7ce26d40428dbf5d964640e65cff3dd0aac",
+"seconds": 5.6,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row201": {
+"olean_sha256": "085dc4523b1da08b01a2c86f04aa3d98221655d5139c462883c6fe59bab08e94",
+"seconds": 6.0,
+"status": "compiled"
+},
+"Candidate.ReturnA.Finite.Row213": {
+"olean_sha256": "5e68c595f43c783e9120f3c66073fc80a04d6e37c1bd2565efb6a8a7c3d5922c",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Admission024": {
+"olean_sha256": "b87f26146801720f4f82a46573a518eed39a2ed3e47807c2767fcf54d842d112",
+"seconds": 41.3,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.ReturnConstants": {
+"olean_sha256": "2826b323119ed9e18b720d520de9e5cff6e62c3f9c5566425ba1b63dc41356be",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.ReturnFormulas": {
+"olean_sha256": "01ff3e261923c1b899cb0ac28dff22f9446d6f3fff651e3866774961ee229a1f",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row006": {
+"olean_sha256": "918a9029a43acc2fba432fac9cf9fdf480684fb41ac56e099413d7ef4f52a2b9",
+"seconds": 5.8,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row014": {
+"olean_sha256": "739d74b8fec6e1a6650d03c95b6dc11f5376fbe139fbc88a08e3b99015729a8f",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row019": {
+"olean_sha256": "ea877361a0d4ce3aabfd102168f907901b527a237cba805f0ede0cbbfe1f8c19",
+"seconds": 6.3,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row026": {
+"olean_sha256": "5ffc064dbc0dd521cd6f6b9766d4c9f36a34995d082942d95b3af45726791857",
+"seconds": 6.3,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row032": {
+"olean_sha256": "85005cf772f396cccb54532497540f9087eb62f87314655d19e59c04d9425933",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row033": {
+"olean_sha256": "a9a3ad17d786d0c471121224abb5618da88c8ce6918a6eea2d8066fd11166811",
+"seconds": 5.9,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row039": {
+"olean_sha256": "bf13a9b5b83374cdc1445ad1a87b2b11f8cf554161b2e020a2cd54186ef384ca",
+"seconds": 6.3,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row048": {
+"olean_sha256": "deb1d3705537759556b1e8f943f027be95db96a8b6475ce8fc16b2cc87d28736",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row077": {
+"olean_sha256": "978caa6db9ceb0e01cde1773c3ccd944b01909213fcbee2e0d76d97fbbf7ad84",
+"seconds": 5.8,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row086": {
+"olean_sha256": "7c2af2d5ce5f81400e9a6904dc807445b4211b29605800fcb8fd61fb73d1fa86",
+"seconds": 6.0,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row092": {
+"olean_sha256": "273fd61b09a5f45d5374b70f649e3d45981102a84125e4c95711a476533fd448",
+"seconds": 6.1,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row095": {
+"olean_sha256": "bd1718f966f6dcbe1ff1718396214c7af30664e9d31daf2b8711dbbfae35dfe0",
+"seconds": 5.7,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row109": {
+"olean_sha256": "03c3f33873b3ae1d93bc3dffcf9dbe494ca1c0914928936fe62da094d213cfbc",
+"seconds": 5.6,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row116": {
+"olean_sha256": "450fddc549ded411b1a6c6cceb1ae18f4437cf03c66a9d24d99550f8daf5401c",
+"seconds": 5.9,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row146": {
+"olean_sha256": "51aec8b20c5565cd98aa8ee48d4108c19a22f3b0345012803891c9a1cec8e0a7",
+"seconds": 5.7,
+"status": "compiled"
+},
+"Candidate.ReturnB.Finite.Row185": {
+"olean_sha256": "39e3bf0724cb55ff36ac6cddaccb9bb24a10364d30479bfde68a46edb6761aec",
+"seconds": 5.8,
+"status": "compiled"
+},
+"Submissions.lewko_acyclic_bootstrap_874772906.Collet.Record12518109.Bernstein": {
+"olean_sha256": "862c1475058e239568b868f12b376b7487580a2e96dd2f09e219979c676c6445",
+"seconds": 0.0,
+"status": "compiled"
+},
+"Submissions.lewko_acyclic_bootstrap_874772906.Collet.Record1252270103Finite.SourceFormulas": {
+"olean_sha256": "0ee33776cedc548697769b40f8ac3f547e6ab79c7be72f645a7447af04eda579",
+"seconds": 0.0,
+"status": "compiled"
+}
+}

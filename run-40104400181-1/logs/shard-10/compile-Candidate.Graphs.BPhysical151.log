@@ -1,0 +1,2 @@
+'Das.QRH.Graphs.BPhysical151.advance' depends on axioms: [propext, Classical.choice, Quot.sound]
+

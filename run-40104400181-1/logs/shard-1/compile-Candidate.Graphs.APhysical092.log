@@ -1,0 +1,2 @@
+'Das.QRH.Graphs.APhysical092.advance' depends on axioms: [propext, Classical.choice, Quot.sound]
+
