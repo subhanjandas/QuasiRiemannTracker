@@ -2,8 +2,11 @@
 
 This branch holds contributor-side evidence only. It is not part of the result PR, and it is
 not the maintainers' protected admission. The result PR changes only
-`submissions/das-acyclic-bootstrap-874771265/` at commit
-`7195a4d8ae01001cb9781c3a706c7bf28cca970a`, on top of upstream `main` `0ce80fdd`.
+`submissions/das-acyclic-bootstrap-874771265/`, on top of upstream `main` `0ce80fdd`. The runs
+below checked commit `7195a4d8ae01001cb9781c3a706c7bf28cca970a`. The PR head
+`2a4bdc15726d5724e86381e5d452e615e5b4cf5d` has the identical tree
+`5a00ad719cb44c606b8d7fe64ecd9fd48c2b0652` and was only re-signed so that GitHub shows it as
+verified.
 
 ## Pinned-verifier reproduction on GitHub-hosted workers
 
